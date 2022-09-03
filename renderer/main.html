@@ -6,12 +6,28 @@
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
+    <header>
+      <input type="search" id="search" placeholder="Search...">
+      <button id="add-item">Add</button>
+    </header>
 
-    <h1>Hello Electron!</h1>
-    <p>Build cross-platform desktop apps with JavaScript, HTML, and CSS</p>
+    <div>
+      <p id="no-item" >No items</p>
+    </div>
+
+    <div id="modal">
+      <input type="text" id="item">
+      <button id="submit">Add</button>
+      <button id="close-modal">Close</button>
+    </div>
+
+  
+
+
+
+
 
     <script>
-      // You can also require other files to run in this process
       require('./app')
     </script>
   </body>
