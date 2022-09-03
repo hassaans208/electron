@@ -9,18 +9,15 @@ let mainWindow
 function createWindow () {
 
   mainWindow = new BrowserWindow({
-    width: 1000, height: 800,
+    width: 600, height: 500,
     webPreferences: {
-      // --- !! IMPORTANT !! ---
-      // Disable 'contextIsolation' to allow 'nodeIntegration'
-      // 'contextIsolation' defaults to "true" as from Electron v12
       contextIsolation: false,
       nodeIntegration: true
     }
   })
 
   // Load index.html into the new BrowserWindow
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile('renderer/main.html')
 
   // Open DevTools - Remove for PRODUCTION!
   // mainWindow.webContents.openDevTools();
