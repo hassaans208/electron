@@ -55,7 +55,7 @@ header{
     border-width: 0.5px;
     border-radius: 3px;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
 }
 #submit{
     color: aliceblue;
@@ -66,7 +66,7 @@ header{
     width: 75px;
     height: 2em;
     /* flex-grow: 1; */
-    margin: 3px;
+    margin: 10px;
     padding: 2px;
 }
 #submit:hover{
@@ -78,7 +78,7 @@ header{
     width: 75px;
     height: 2em;
     /* flex-grow: 1; */
-    margin: 3px;
+    margin: 10px;
     padding: 2px;
 }
 #close-modal{
@@ -90,7 +90,7 @@ header{
     width: 75px;
     height: 2em;
     /* flex-grow: 1; */
-    margin: 3px;
+    margin: 10px;
     padding: 2px;
 }
 #close-modal:hover{
@@ -102,6 +102,6 @@ header{
     width: 75px;
     height: 2em;
     /* flex-grow: 1; */
-    margin: 3px;
+    margin: 10px;
     padding: 2px;
 }
